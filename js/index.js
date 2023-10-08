@@ -9,9 +9,9 @@ function toggleMode(){
 const img = document.querySelector("#cabecalho img")
 
   if(html.classList.contains("light")){
-    img.setAttribute("src", "../assets/perfil2.jpg")
+    img.setAttribute("src", "./assets/perfil2.jpg")
   
  }else{     
-      img.setAttribute("src", "../assets/perfil.png")
+      img.setAttribute("src", "./assets/perfil.png")
   }
 }
