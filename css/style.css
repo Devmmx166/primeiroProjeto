@@ -71,7 +71,8 @@ body *{
 
 #container{
 
-width: 270px;
+width: 100%;
+max-width: 588px;
 
 margin: 30px auto 0px;
 text-align: center;
